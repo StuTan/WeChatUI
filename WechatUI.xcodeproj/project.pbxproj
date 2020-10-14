@@ -28,11 +28,11 @@
 		98D4C175253007E70067F805 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98D4C169253007E70067F805 /* README.md */; };
 		98D4C1792530104E0067F805 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C1782530104E0067F805 /* UserTableViewCell.m */; };
 		98D4C17E2530130A0067F805 /* BaseCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C17C2530130A0067F805 /* BaseCellTableViewCell.m */; };
-		98D4C1822530132A0067F805 /* chatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C1812530132A0067F805 /* chatTableViewController.m */; };
-		98D4C1892530133E0067F805 /* sendInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C1862530133E0067F805 /* sendInfoTableViewCell.m */; };
-		98D4C18D253013450067F805 /* receiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C18C253013450067F805 /* receiveTableViewCell.m */; };
-		98D4C193253013540067F805 /* timeInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C18F253013540067F805 /* timeInfoTableViewCell.m */; };
-		98D4C194253013540067F805 /* triangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C192253013540067F805 /* triangleView.m */; };
+		98D4C1822530132A0067F805 /* ChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C1812530132A0067F805 /* ChatTableViewController.m */; };
+		98D4C1892530133E0067F805 /* SendInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C1862530133E0067F805 /* SendInfoTableViewCell.m */; };
+		98D4C18D253013450067F805 /* ReceiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C18C253013450067F805 /* ReceiveTableViewCell.m */; };
+		98D4C193253013540067F805 /* TimeInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C18F253013540067F805 /* TimeInfoTableViewCell.m */; };
+		98D4C194253013540067F805 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C192253013540067F805 /* TriangleView.m */; };
 		98D4C198253013610067F805 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C197253013610067F805 /* MessageModel.m */; };
 		98D4C1AC253048FB0067F805 /* KeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C1AB253048FB0067F805 /* KeyBoard.m */; };
 		98D4C1B125304A8A0067F805 /* InputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C1B025304A8A0067F805 /* InputTextView.m */; };
@@ -40,7 +40,7 @@
 		98D4C1BA25304AD40067F805 /* InputMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C1B925304AD40067F805 /* InputMoreView.m */; };
 		98D4C1BF25304E8B0067F805 /* InputGetFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4C1BE25304E8B0067F805 /* InputGetFrame.m */; };
 		98FCDF4225318EAB0078E554 /* SqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FCDF4125318EAB0078E554 /* SqliteManager.m */; };
-		98FCDF47253190510078E554 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FCDF46253190510078E554 /* ChatModel.m */; };
+		98FCDF47253190510078E554 /* TransformMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FCDF46253190510078E554 /* TransformMessageModel.m */; };
 		98FCDF4C253192B90078E554 /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FCDF4B253192B90078E554 /* MessageController.m */; };
 		98FCDF602531B0B60078E554 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FCDF5F2531B0B60078E554 /* DBManager.m */; };
 /* End PBXBuildFile section */
@@ -90,16 +90,16 @@
 		98D4C1782530104E0067F805 /* UserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
 		98D4C17C2530130A0067F805 /* BaseCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCellTableViewCell.m; sourceTree = "<group>"; };
 		98D4C17D2530130A0067F805 /* BaseCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCellTableViewCell.h; sourceTree = "<group>"; };
-		98D4C1802530132A0067F805 /* chatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatTableViewController.h; sourceTree = "<group>"; };
-		98D4C1812530132A0067F805 /* chatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatTableViewController.m; sourceTree = "<group>"; };
-		98D4C1862530133E0067F805 /* sendInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sendInfoTableViewCell.m; sourceTree = "<group>"; };
-		98D4C1872530133E0067F805 /* sendInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendInfoTableViewCell.h; sourceTree = "<group>"; };
-		98D4C18B253013450067F805 /* receiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = receiveTableViewCell.h; sourceTree = "<group>"; };
-		98D4C18C253013450067F805 /* receiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = receiveTableViewCell.m; sourceTree = "<group>"; };
-		98D4C18F253013540067F805 /* timeInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timeInfoTableViewCell.m; sourceTree = "<group>"; };
-		98D4C190253013540067F805 /* timeInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeInfoTableViewCell.h; sourceTree = "<group>"; };
-		98D4C191253013540067F805 /* triangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triangleView.h; sourceTree = "<group>"; };
-		98D4C192253013540067F805 /* triangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triangleView.m; sourceTree = "<group>"; };
+		98D4C1802530132A0067F805 /* ChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewController.h; sourceTree = "<group>"; };
+		98D4C1812530132A0067F805 /* ChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewController.m; sourceTree = "<group>"; };
+		98D4C1862530133E0067F805 /* SendInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendInfoTableViewCell.m; sourceTree = "<group>"; };
+		98D4C1872530133E0067F805 /* SendInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendInfoTableViewCell.h; sourceTree = "<group>"; };
+		98D4C18B253013450067F805 /* ReceiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveTableViewCell.h; sourceTree = "<group>"; };
+		98D4C18C253013450067F805 /* ReceiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveTableViewCell.m; sourceTree = "<group>"; };
+		98D4C18F253013540067F805 /* TimeInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeInfoTableViewCell.m; sourceTree = "<group>"; };
+		98D4C190253013540067F805 /* TimeInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeInfoTableViewCell.h; sourceTree = "<group>"; };
+		98D4C191253013540067F805 /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		98D4C192253013540067F805 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
 		98D4C1962530135B0067F805 /* MessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
 		98D4C197253013610067F805 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
 		98D4C1AA253048FB0067F805 /* KeyBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyBoard.h; sourceTree = "<group>"; };
@@ -114,8 +114,8 @@
 		98D4C1BE25304E8B0067F805 /* InputGetFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputGetFrame.m; sourceTree = "<group>"; };
 		98FCDF4025318EAB0078E554 /* SqliteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqliteManager.h; sourceTree = "<group>"; };
 		98FCDF4125318EAB0078E554 /* SqliteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteManager.m; sourceTree = "<group>"; };
-		98FCDF45253190510078E554 /* ChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
-		98FCDF46253190510078E554 /* ChatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
+		98FCDF45253190510078E554 /* TransformMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformMessageModel.h; sourceTree = "<group>"; };
+		98FCDF46253190510078E554 /* TransformMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformMessageModel.m; sourceTree = "<group>"; };
 		98FCDF4A253192B90078E554 /* MessageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
 		98FCDF4B253192B90078E554 /* MessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
 		98FCDF5E2531B0B60078E554 /* DBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
@@ -253,8 +253,8 @@
 				98D4C17B2530129E0067F805 /* MessageCell */,
 				98FCDF49253192820078E554 /* Message */,
 				98D4C1A32530485E0067F805 /* KeyBoard */,
-				98D4C1802530132A0067F805 /* chatTableViewController.h */,
-				98D4C1812530132A0067F805 /* chatTableViewController.m */,
+				98D4C1802530132A0067F805 /* ChatTableViewController.h */,
+				98D4C1812530132A0067F805 /* ChatTableViewController.m */,
 			);
 			name = Chat;
 			sourceTree = "<group>";
@@ -281,8 +281,6 @@
 			children = (
 				98FCDF4025318EAB0078E554 /* SqliteManager.h */,
 				98FCDF4125318EAB0078E554 /* SqliteManager.m */,
-				98FCDF45253190510078E554 /* ChatModel.h */,
-				98FCDF46253190510078E554 /* ChatModel.m */,
 				98FCDF5E2531B0B60078E554 /* DBManager.h */,
 				98FCDF5F2531B0B60078E554 /* DBManager.m */,
 			);
@@ -294,6 +292,8 @@
 			children = (
 				98FCDF4A253192B90078E554 /* MessageController.h */,
 				98FCDF4B253192B90078E554 /* MessageController.m */,
+				98FCDF45253190510078E554 /* TransformMessageModel.h */,
+				98FCDF46253190510078E554 /* TransformMessageModel.m */,
 				98D4C1962530135B0067F805 /* MessageModel.h */,
 				98D4C197253013610067F805 /* MessageModel.m */,
 			);
@@ -303,14 +303,14 @@
 		98FCDF5325319EBA0078E554 /* MessageBaseCell */ = {
 			isa = PBXGroup;
 			children = (
-				98D4C190253013540067F805 /* timeInfoTableViewCell.h */,
-				98D4C18F253013540067F805 /* timeInfoTableViewCell.m */,
-				98D4C191253013540067F805 /* triangleView.h */,
-				98D4C192253013540067F805 /* triangleView.m */,
-				98D4C18B253013450067F805 /* receiveTableViewCell.h */,
-				98D4C18C253013450067F805 /* receiveTableViewCell.m */,
-				98D4C1872530133E0067F805 /* sendInfoTableViewCell.h */,
-				98D4C1862530133E0067F805 /* sendInfoTableViewCell.m */,
+				98D4C190253013540067F805 /* TimeInfoTableViewCell.h */,
+				98D4C18F253013540067F805 /* TimeInfoTableViewCell.m */,
+				98D4C191253013540067F805 /* TriangleView.h */,
+				98D4C192253013540067F805 /* TriangleView.m */,
+				98D4C18B253013450067F805 /* ReceiveTableViewCell.h */,
+				98D4C18C253013450067F805 /* ReceiveTableViewCell.m */,
+				98D4C1872530133E0067F805 /* SendInfoTableViewCell.h */,
+				98D4C1862530133E0067F805 /* SendInfoTableViewCell.m */,
 				98D4C17D2530130A0067F805 /* BaseCellTableViewCell.h */,
 				98D4C17C2530130A0067F805 /* BaseCellTableViewCell.m */,
 			);
@@ -390,14 +390,14 @@
 				98D4C198253013610067F805 /* MessageModel.m in Sources */,
 				98D4C17E2530130A0067F805 /* BaseCellTableViewCell.m in Sources */,
 				98D4C173253007E70067F805 /* MASViewConstraint.m in Sources */,
-				98D4C193253013540067F805 /* timeInfoTableViewCell.m in Sources */,
+				98D4C193253013540067F805 /* TimeInfoTableViewCell.m in Sources */,
 				98D4C16E253007E70067F805 /* MASConstraintMaker.m in Sources */,
 				98D4C1BF25304E8B0067F805 /* InputGetFrame.m in Sources */,
-				98D4C1892530133E0067F805 /* sendInfoTableViewCell.m in Sources */,
+				98D4C1892530133E0067F805 /* SendInfoTableViewCell.m in Sources */,
 				98D4C11B252FF9F20067F805 /* UserViewController.m in Sources */,
 				98D4C16C253007E70067F805 /* ViewController+MASAdditions.m in Sources */,
 				98D4C16B253007E70067F805 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				98D4C194253013540067F805 /* triangleView.m in Sources */,
+				98D4C194253013540067F805 /* TriangleView.m in Sources */,
 				98FCDF602531B0B60078E554 /* DBManager.m in Sources */,
 				98FCDF4225318EAB0078E554 /* SqliteManager.m in Sources */,
 				98D4C1AC253048FB0067F805 /* KeyBoard.m in Sources */,
@@ -407,16 +407,16 @@
 				98D4C16F253007E70067F805 /* MASLayoutConstraint.m in Sources */,
 				98D4C171253007E70067F805 /* View+MASAdditions.m in Sources */,
 				98D4C170253007E70067F805 /* NSArray+MASAdditions.m in Sources */,
-				98D4C1822530132A0067F805 /* chatTableViewController.m in Sources */,
+				98D4C1822530132A0067F805 /* ChatTableViewController.m in Sources */,
 				98D4C117252FF9CF0067F805 /* SessionViewController.m in Sources */,
-				98FCDF47253190510078E554 /* ChatModel.m in Sources */,
+				98FCDF47253190510078E554 /* TransformMessageModel.m in Sources */,
 				98D4C1B125304A8A0067F805 /* InputTextView.m in Sources */,
 				98D4C1BA25304AD40067F805 /* InputMoreView.m in Sources */,
 				98FCDF4C253192B90078E554 /* MessageController.m in Sources */,
 				98D4C0FA252FF4AF0067F805 /* AppDelegate.m in Sources */,
 				98D4C174253007E70067F805 /* MASViewAttribute.m in Sources */,
 				98D4C172253007E70067F805 /* MASConstraint.m in Sources */,
-				98D4C18D253013450067F805 /* receiveTableViewCell.m in Sources */,
+				98D4C18D253013450067F805 /* ReceiveTableViewCell.m in Sources */,
 				98D4C10B252FF4B20067F805 /* main.m in Sources */,
 				98D4C1792530104E0067F805 /* UserTableViewCell.m in Sources */,
 			);
